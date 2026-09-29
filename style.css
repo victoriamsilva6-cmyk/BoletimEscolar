@@ -1,0 +1,59 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f2f4f7;
+color: #333;
+}
+header {
+background-color: #359b7c;
+color: white;
+text-align: center;
+padding: 25px;
+}
+.aluno {
+width: 85%;
+margin: 30px auto;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+table {
+width: 90%;
+margin: 30px auto;
+border-collapse: collapse;
+background-color: white;
+}
+th, td {
+padding: 15px;
+border: 1px solid #ddd;
+text-align: center;
+}
+th {
+background-color: #359b7c;
+color: white;
+}
+.nota-boa {
+color: green;
+font-weight: bold;
+}
+.nota-baixa {
+color: red;
+font-weight: bold;
+}
+.aprovado {
+color: green;
+font-weight: bold;
+}
+.reprovado {
+color: red;
+font-weight: bold;
+}
+tbody tr:hover {
+background-color: #e8f4f5;
+}
+footer {
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+}
